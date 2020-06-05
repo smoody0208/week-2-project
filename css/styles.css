@@ -16,4 +16,7 @@
   padding-bottom: 2%;
 }
 
-
+.btn {
+  display: block;
+  width: 100%;
+}

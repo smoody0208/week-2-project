@@ -11,16 +11,16 @@ $(document).ready(function(){
     $(".name").text(nameInput);
  
     if (question1 === "a" && question2 === "a" && question3 === "a" && question4 === "a" && question5 === "a") {
-      $("#a-js").show();
+      $("#a-js").fadeIn();
       $("#quizForm").hide();
     } else if (question1 === "b" && question2 === "b" && question3 === "b" && question4 === "b" && question5 === "b"){
-      $("#a-ruby").show();
+      $("#a-ruby").fadeIn();
       $("#quizForm").hide();
     } else if (question1 === "c" && question2 === "c" && question3 === "c" && question4 === "c" && question5 === "c") {
-      $("#a-csharp").show();
+      $("#a-csharp").fadeIn();
       $("#quizForm").hide();
     } else {
-      alert("please enter a different combonation")
+      alert("please enter a different combination")
     }
   });
 });
