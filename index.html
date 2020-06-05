@@ -16,26 +16,30 @@
       <h3>Descripotion</h3>
     </div>
     <div class="container">
-      <form id="quizForm"></form>
+      <form id="quizForm">
+        <div class="form-group">
+          <label for="person1">Please enter your name to get started:</label>
+          <input id="person1" class="form-control" type="text">
+        </div>
         <div class="card">
           <h5 class="card-header">What size of company would you prefer to work for?</h5>
           <div class="card-body">
             <div class="card-text">
               <div class="radio">
                 <label>
-                  <input type="radio" name="size" value="1" checked>
+                  <input type="radio" name="question1" value="large">
                   A large well established company.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="size" value="2">
+                  <input type="radio" name="question1" value="small">
                   A startup.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="size" value="3">
+                  <input type="radio" name="question1" value="medium">
                   Somewhere small but well established.
                 </label>
               </div>
@@ -46,19 +50,19 @@
             <div class="card-text">
               <div class="radio">
                 <label>
-                  <input type="radio" name="reason" value="1" checked>
+                  <input type="radio" name="question2" value="change">
                   Change careers.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="reason" value="1">
+                  <input type="radio" name="question2" value="fun">
                   Just for fun.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="reason" value="3">
+                  <input type="radio" name="question2" value="skill">
                   Improve my tech skills.
                 </label>
               </div>
@@ -69,19 +73,19 @@
             <div class="card-text">
               <div class="radio">
                 <label>
-                  <input type="radio" name="education" value="1" checked>
+                  <input type="radio" name="question3" value="degree">
                   4 year degree.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="education" value="2">
+                  <input type="radio" name="question3" value="highSchool">
                   High School
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="education" value="3">
+                  <input type="radio" name="question3" value="tradeSchool">
                   Trade School
                 </label>
               </div>
@@ -92,19 +96,19 @@
             <div class="card-text">
               <div class="radio">
                 <label>
-                  <input type="radio" name="platform" value="1" checked>
+                  <input type="radio" name="question4" value="web">
                   Web Development.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="platform" value="2">
+                  <input type="radio" name="question4" value="game">
                   Gaming.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="platform" value="3">
+                  <input type="radio" name="question4" value="app">
                   Mobile Apps.
                 </label>
               </div>
@@ -115,25 +119,26 @@
             <div class="card-text">
               <div class="radio">
                 <label>
-                  <input type="radio" name="language" value="1" checked>
+                  <input type="radio" name="question5" value="no">
                   No not yet.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="flavor" value="2">
+                  <input type="radio" name="question5" value="yes">
                   I know 1 language.
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="flavor" value="3">
+                  <input type="radio" name="question5" value="many">
                   I write my own language.
                 </label>
+                <input type="text" name="sum" />
               </div>
             </div>  
           </div>
-          <button type="submit" class="btn btn-info">Get Your Result</button>
+          <button type="button" class="btn btn-info">Get Your Result</button>
         </div>
       </form>  
     </div>  
