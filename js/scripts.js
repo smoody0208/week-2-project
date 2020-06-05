@@ -10,16 +10,17 @@ $(document).ready(function(){
 
     $(".name").text(nameInput);
  
-    if 
-    } else if (question1 === "a" && question2 === "a" && question3 === "a" && question4 === "a" && question5 === "a") {
+    if (question1 === "a" && question2 === "a" && question3 === "a" && question4 === "a" && question5 === "a") {
       $("#a-js").show();
       $("#quizForm").hide();
     } else if (question1 === "b" && question2 === "b" && question3 === "b" && question4 === "b" && question5 === "b"){
       $("#a-ruby").show();
       $("#quizForm").hide();
-    } else {
+    } else if (question1 === "c" && question2 === "c" && question3 === "c" && question4 === "c" && question5 === "c") {
       $("#a-csharp").show();
       $("#quizForm").hide();
+    } else {
+      alert("please enter a different combonation")
     }
   });
 });
