@@ -25,6 +25,8 @@ $(document).ready(function(){
   });
 });
 
+//Still working on this code:
+
 /*let rubyTotal = 0;
 let jsTotal = 0;
 let cSharpTotal = 0;

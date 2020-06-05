@@ -11,17 +11,19 @@
     <title>Programming Language Quiz</title>
   </head>
   <body>
-    <div class="jumbotron">
-      <h1>Title</h1>
-      <h3>Descripotion</h3>
+    <div class="jumbotron jumbotron1">
+      <div class="container container2">
+        <h1>Programming Language Suggester</h1>
+        <p>Answer the following questions to see what programming language you should learn!</h5>
+      </div>  
     </div>
-    <div class="container">
+    <div class="container container1">
       <form id="quizForm">
-        <div class="form-group">
-          <label for="person1">Please enter your name to get started:</label>
-          <input id="name" class="form-control" type="text">
-        </div>
         <div class="card border-info mb-3">
+          <div class="form-group">
+            <h5 class="card-header">Please Enter your name to start:</h5>
+            <input id="name" class="form-control" type="text">
+          </div>
           <h5 class="card-header">What size of company would you prefer to work for?</h5>
           <div class="card-body text-info">
             <div class="card-text">
@@ -151,7 +153,6 @@
         </ul>
         <button class="btn btn-warning" onclick="location.href='index.html'" type="button">Try Again!</button>
       </div>
-      
       <div id="a-js">
         <div class="alert alert-success">  
           <h1>Congratulations, <span class="name"></span> based on your answers the best course for you would be JavaScript</h1>
@@ -163,7 +164,6 @@
         </ul>
         <button class="btn btn-warning" onclick="location.href='index.html'" type="button">Try Again!</button>
       </div>
-      
       <div id="a-csharp">
         <div class="alert alert-success">
           <h1>Congratulations, <span class="name"></span> based on your answers the best course for you would be C#</h1>
