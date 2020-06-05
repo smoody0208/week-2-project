@@ -19,11 +19,11 @@
       <form id="quizForm">
         <div class="form-group">
           <label for="person1">Please enter your name to get started:</label>
-          <input id="person1" class="form-control" type="text">
+          <input id="name" class="form-control" type="text">
         </div>
-        <div class="card text-white bg-info mb-3">
+        <div class="card border-info mb-3">
           <h5 class="card-header">What size of company would you prefer to work for?</h5>
-          <div class="card-body">
+          <div class="card-body text-info">
             <div class="card-text">
               <div class="radio">
                 <label>
@@ -46,7 +46,7 @@
             </div>  
           </div>
           <h5 class="card-header">What is your reason for wanting to learn how to program?</h5>
-          <div class="card-body">
+          <div class="card-body text-info">
             <div class="card-text">
               <div class="radio">
                 <label>
@@ -69,7 +69,7 @@
             </div>  
           </div>
           <h5 class="card-header">What is your education level?</h5>
-          <div class="card-body">
+          <div class="card-body text-info">
             <div class="card-text">
               <div class="radio">
                 <label>
@@ -92,7 +92,7 @@
             </div>  
           </div>
           <h5 class="card-header">Which platform or field would you like to work in?</h5>
-          <div class="card-body">
+          <div class="card-body text-info">
             <div class="card-text">
               <div class="radio">
                 <label>
@@ -115,7 +115,7 @@
             </div>  
           </div>
           <h5 class="card-header">Do you already know a programming language?</h5>
-          <div class="card-body">
+          <div class="card-body text-info">
             <div class="card-text">
               <div class="radio">
                 <label>
@@ -139,7 +139,39 @@
           </div>
           <button type="button" class="btn btn-danger">Get Your Result</button>
         </div>
-      </form>  
+      </form> 
+      <div id="a-ruby">
+        <div class="alert alert-success"> 
+          <h1>Congratulations, <span class="name"></span> based on your answers the best course for you would be Ruby!</h1>
+        </div>
+        <h2>Why is this the best track for you?</h2>
+        <ul>
+          <li>Ruby is a scripting language built from the ground up for use in front end and back end web development </li>
+          <li>Ruby on Rails is strongly associated with startups</li>
+        </ul>
+      </div>
+      
+      <div id="a-js">
+        <div class="alert alert-success">  
+          <h1>Congratulations, <span class="name"></span> based on your answers the best course for you would be JavaScript</h1>
+        </div>  
+          <h2>Why is this the best track for you?</h2>
+          <ul>
+            <li>JavaScript allows you to build interactive websites.</li>
+            <li>If you learn JavaScript you can use it in game development.</li>
+          </ul>
+      </div>
+      
+      <div id="a-csharp">
+        <div class="alert alert-success">
+          <h1>Congratulations, <span class="name"></span> based on your answers the best course for you would be C#</h1>
+        </div>  
+          <h2>Why is this the best track for you?</h2>
+          <ul>
+            <li>C# is very popular amongst larger established companies</li>
+            <li>Used often in Microsoft</li>
+          </ul>
+      </div>
     </div>  
   </body>
 </html>
